@@ -25,8 +25,8 @@ df.plot(kind = 'kde')
 #    3. a bar chart;
 df.plot(kind = 'bar')
 #    4. a horizontal stacked bar chart with categories summing to 1;
-df_rel = df.div(sp.sum(1).astype(float),axis = 0)
-df_rel.plot(kind = 'bar', stacked = True)
+#df_rel = df.div(sp.sum(1).astype(float),axis = 0)
+#df_rel.plot(kind = 'bar', stacked = True)
 #    5. a scatterplot.
 plt.scatter(df, df2)
 plt.title("High vs. Low")
